@@ -40,7 +40,11 @@ import Timer from "./components/Timer.vue";
 import Buttons from "./components/Buttons.vue";
 import Setup from "./components/Setup.vue";
 import AboutApp from "./components/AboutApp.vue";
-
+import sound from "./assets/herewegoagain.mp3";
+function play() {
+  var audio = new Audio(sound);
+  audio.play();
+}
 export default {
   name: "App",
   components: {
@@ -77,6 +81,7 @@ export default {
     },
     // hide timer show buttons
     endOfTimerParent() {
+      play();
       this.ShowOptions = true;
       this.ShowTimer = false;
     },
