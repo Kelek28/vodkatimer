@@ -72,6 +72,8 @@ export default {
         setTimeout(this.countdown, 1000);
         this.$emit("ChangeBg", this.generateRGB());
       } else {
+        var audio = new Audio("../assets/herewegoagain.mp3");
+        audio.play();
         this.currentTime = null;
         this.$emit("endOfTimer");
       }
