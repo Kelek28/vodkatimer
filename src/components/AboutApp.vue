@@ -21,6 +21,8 @@ div {
   transform: translate(-50%, -50%);
 }
 div > p {
+  font-family: "Merriweather", serif !important;
+
   background: #eeeeee;
   padding: 25px;
   font-size: 2vw;

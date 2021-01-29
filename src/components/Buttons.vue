@@ -48,7 +48,7 @@ export default {
 .chooseButton {
   border: none;
   height: 50%;
-  width: 50%;
+  width: 100%;
   font-size: 300%;
   font-family: "Bungee Shade", cursive;
 }

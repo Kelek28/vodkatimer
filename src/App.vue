@@ -94,6 +94,7 @@ export default {
 <style scoped>
 #setup {
   padding-top: 40vh;
+  font-family: "Merriweather", serif !important;
 }
 html,
 body,
